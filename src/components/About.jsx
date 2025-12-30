@@ -74,6 +74,7 @@ export default function Past() {
 
   return (
     <section
+    id="past"
       ref={sectionRef}
       className="relative h-screen w-full bg-white overflow-hidden"
     >

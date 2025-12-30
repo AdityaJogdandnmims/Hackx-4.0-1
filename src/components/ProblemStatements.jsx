@@ -49,7 +49,7 @@ export default function ProblemStatements() {
   ];
 
   return (
-    <div className="min-h-screen bg-white relative overflow-hidden py-20 px-4">
+    <div id="problems" className="min-h-screen bg-white relative overflow-hidden py-20 px-4">
       {/* Animated background grid */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{

@@ -58,6 +58,7 @@ export default function Pastsponsor() {
 
   return (
     <motion.section
+      id="pastsponsor"
       ref={containerRef}
       style={{ backgroundColor: bgColor }}
       className="relative min-h-screen py-32 overflow-hidden selection:bg-orange-500/30"

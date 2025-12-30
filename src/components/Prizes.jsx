@@ -30,7 +30,7 @@ const Rank = () => {
   ];
 
   return (
-    <section className="relative w-full min-h-screen bg-white flex flex-col md:flex-row overflow-hidden">
+    <section id="prizes" className="relative w-full min-h-screen bg-white flex flex-col md:flex-row overflow-hidden">
       {ranks.map((rank, index) => (
         <motion.div
           key={rank.id}
