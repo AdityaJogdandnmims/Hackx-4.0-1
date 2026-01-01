@@ -145,9 +145,9 @@ export default function Past() {
               </p>
 
               <div className="grid grid-cols-3 gap-4 md:gap-8">
-                <TelemetryStat label="DRIVERS" value="240+" unit="PARTICIPANTS" />
+                <TelemetryStat label="DRIVERS" value="200+" unit="PARTICIPANTS" />
                 <TelemetryStat label="DURATION" value="24H" unit="CONTINUOUS" />
-                <TelemetryStat label="PRIZE" value="₹1L" unit="POOL" />
+                <TelemetryStat label="PRIZE" value="₹75K" unit="POOL" />
               </div>
 
               <div className="absolute bottom-6 right-6 flex items-center gap-2">
