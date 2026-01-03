@@ -9,7 +9,7 @@ export default function Past() {
   const [isMobile, setIsMobile] = useState(false);
 
   const TYRE_SIZE = 900;
-  const hackxImages = [tyre, tyre, tyre, tyre, tyre];
+  const hackxImages = [null, null, null, null, null]; // Placeholder for 5 images
 
   /* ================= MOBILE DETECTION ================= */
   useEffect(() => {
@@ -74,7 +74,7 @@ export default function Past() {
 
   return (
     <section
-    id="past"
+      id="past"
       ref={sectionRef}
       className="relative h-screen w-full bg-white overflow-hidden"
     >
@@ -122,14 +122,14 @@ export default function Past() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-[2px] bg-blue-600" />
                 <span className="text-xs tracking-[0.4em] text-blue-600 font-black uppercase">
-                  Hackathon Archives 2024
+                  Start your Engine
                 </span>
                 <div className="w-12 h-[2px] bg-blue-600" />
               </div>
 
               {/* Title */}
               <h1 className="text-5xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-blue-600 to-gray-900 mb-4 tracking-tighter leading-none">
-                HACKX ’24
+                HACKX 4.0
               </h1>
 
               <div className="flex items-center gap-4 mb-8">
@@ -140,7 +140,7 @@ export default function Past() {
               </div>
 
               <p className="text-black text-base md:text-lg leading-relaxed max-w-xl font-semibold mb-10">
-                Elite student teams competed in a high-octane 24-hour innovation
+                Elite student teams compete in a high-octane 24-hour innovation
                 race, pushing technological boundaries at maximum velocity.
               </p>
 

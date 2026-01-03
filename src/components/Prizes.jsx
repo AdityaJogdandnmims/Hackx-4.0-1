@@ -6,7 +6,7 @@ const Rank = () => {
     {
       id: "02",
       pos: "Second",
-      amount: "15,000",
+      amount: "25,000",
       color: "#f1f5f9", // Light Slate
       hoverBg: "#0f172a", // Slate 900
       accent: "text-slate-400"
@@ -14,7 +14,7 @@ const Rank = () => {
     {
       id: "01",
       pos: "First",
-      amount: "25,000",
+      amount: "35,000",
       color: "#ffffff", // Pure White
       hoverBg: "#f97316", // Orange 500
       accent: "text-orange-500"
@@ -22,7 +22,7 @@ const Rank = () => {
     {
       id: "03",
       pos: "Third",
-      amount: "5,000",
+      amount: "15,000",
       color: "#fafaf9", // Warm Stone
       hoverBg: "#44403c", // Stone 800
       accent: "text-amber-700"
